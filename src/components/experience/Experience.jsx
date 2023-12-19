@@ -16,7 +16,7 @@ const Experience = () => {
         <div className="role">
           <div className="position">
             <h2>Web Developer</h2>
-            <img src="/web.jpg" alt="" />
+            <img src="./web.jpg" alt="" />
           </div>
         </div>
         <div className="work">

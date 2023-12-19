@@ -6,7 +6,7 @@ const items = [
   {
     id: 1,
     title: "Portfolio",
-    image: "/portfolio.png",
+    image: "./portfolio.png",
     description:
       "This project is simply a compilation of my academic and professional materials that exemplifies my beliefs, skills, qualifications, education, training, and experiences. Technologies used for developing this project are HTML, CSS, Javascript and React.",
     github: "https://github.com/Vishakhakasture/Portfolio",
@@ -14,7 +14,7 @@ const items = [
   {
     id: 2,
     title: "Agrosell application",
-    image: "/agrosell_app.jpg",
+    image: "./agrosell_app.jpg",
     description:
       "Agrosell is an mobile application in which farmers can sell their products online and can gain profitable amount.",
     github: "https://github.com/Vishakhakasture/Agrosell-application",
@@ -22,7 +22,7 @@ const items = [
   {
     id: 3,
     title: "Sadguru Krupa",
-    image: "/sadguru_krupa.jpg",
+    image: "./sadguru_krupa.jpg",
     description:
       "Agrosell is an mobile application in which farmers can sell their products online and can gain profitable amount.",
     github: "https://github.com/Vishakhakasture/sadguru",
@@ -30,7 +30,7 @@ const items = [
   {
     id: 4,
     title: "Shiksha Sankalp",
-    image: "/shikshasankalp.jpg",
+    image: "./shikshasankalp.jpg",
     description:
       "Agrosell is an mobile application in which farmers can sell their products online and can gain profitable amount.",
     github: "https://github.com/Vishakhakasture/shikshasankalp",

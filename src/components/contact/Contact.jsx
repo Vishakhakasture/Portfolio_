@@ -55,7 +55,7 @@ const Contact = () => {
     >
       <motion.div className="text-container" variants={variants}>
         <motion.div className="image" variants={variants}>
-          <img src="/connect.jpg" alt="" />
+          <img src="./connect.jpg" alt="" />
         </motion.div>
         <motion.h1 variants={variants}>Let's work together</motion.h1>
         <motion.div className="name" variants={variants}>

@@ -46,7 +46,7 @@ const Education = () => {
         animate="animate"
       >
         <div className="title">
-          <img src="/edu.jpg" alt="" />
+          <img src="./edu.jpg" alt="" />
           <h1>
             <motion.b whileHover={{ color: "purple" }}>
               <motion.span whileHover={{ color: "white" }}>Edu</motion.span>
