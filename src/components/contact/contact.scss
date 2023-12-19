@@ -1,0 +1,114 @@
+@import "../../app.scss";
+
+.contact {
+  height: 100%;
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  @include mobile {
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    gap: 25px;
+
+    @include mobile {
+      gap: 15px;
+      align-items: center;
+      text-align: center;
+      margin-left: 10px;
+    }
+
+    .image {
+      height: 50%;
+
+      @include mobile {
+        margin-bottom: 5px;
+        height: 60%;
+      }
+
+      img {
+        height: 60%;
+        width: 60%;
+        border-radius: 20%;
+
+        @include mobile {
+          height: 85%;
+          width: 85%;
+        }
+      }
+    }
+
+    h1 {
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .name {
+
+      h2 {
+        color: purple;
+        letter-spacing: 2px;
+      }
+
+      h4 {
+        font-weight: bold;
+      }
+    }
+
+    .item {
+
+      span:hover {
+        color: purple;
+        text-decoration: underline;
+      }
+    }
+
+  }
+
+  .form-container {
+    flex: 1;
+    margin-right: 80px;
+
+    @include mobile {
+      width: 80%;
+      margin: auto;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      input, textarea {
+        padding: 15px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
+      }
+
+      button {
+        padding: 15px;
+        border: none;
+        background-color: purple;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+
+}

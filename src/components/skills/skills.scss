@@ -1,0 +1,106 @@
+@import "../../app.scss";
+
+.skills {
+
+  .title-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+
+    @include mobile {
+     width: 100%;
+    }
+
+   .title {
+     display: flex;
+     align-items: center;
+     gap: 30px;
+
+     
+     @include tablet {
+       // flex-direction: column;
+       text-align: center;
+       gap: 20px;
+     }
+
+     @include mobile {
+       flex-direction: column;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       gap: 20px;
+     }
+
+     h1 {
+      font-size: 50px;
+      letter-spacing: 3px;
+      font-weight: bold;
+      color: purple;
+
+      @include mobile {
+        font-size: 30px;
+      }
+    }
+
+
+     img {
+       width: 300px;
+       height: 80px;  
+       object-fit: fill;
+       border-radius: 50px;  
+       
+       @include mobile {
+         width: 200px;
+         height: 70px;
+         align-self: center;
+       }
+
+      }
+
+   }
+  }
+
+  .skill-section {
+    margin-top: -1rem !important;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: center;
+
+    @include tablet {
+      grid-template-columns: 20% 20% 20% 20%;
+    }
+
+    @include mobile {
+      grid-template-columns: 25% 25% 25%;
+    }
+
+    .skill {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+  
+      .skill-img {
+        height: 65px;
+        width: 65px;
+        border: transparent;
+        // border-radius: 50%;
+        padding: 1rem;
+      }
+
+      .skill-img:hover {
+        background-color: black;
+        border-radius: 50%;
+        box-shadow: 0px 0px 30px 0px rgba(161, 4, 253, 0.67);
+        transition: scale(1.8);
+      }
+    }
+
+  }
+
+  
+}

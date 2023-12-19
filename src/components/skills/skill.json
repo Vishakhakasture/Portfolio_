@@ -1,0 +1,82 @@
+[
+  {
+      "image" : "/html.png",
+      "name" : "HTML"
+  },
+  {
+      "image" : "/css.png",
+      "name" : "CSS"
+  },
+  {
+      "image" : "/js.png",
+      "name" : "JavaScript"
+  },
+  {
+      "image" : "/bootstrap.png",
+      "name" : "Bootstrap"
+  },
+  {
+      "image" : "/react.png",
+      "name" : "ReactJS"
+  },
+  {
+      "image" : "/flutter.png",
+      "name" : "Flutter"
+  },
+  {
+      "image" : "/php.png",
+      "name" : "PHP"
+  },
+  {
+      "image" : "/database.png",
+      "name" : "MySQL"
+  },
+  {
+      "image" : "/nodejs.png",
+      "name" : "NodeJS"
+  },
+  {
+      "image" : "/mongodb.png",
+      "name" : "MongoDB"
+  },
+  {
+      "image" : "/c.jpg",
+      "name" : "C"
+  },
+  {
+      "image" : "/java.png",
+      "name" : "Java"
+  },
+  {
+    "image" : "/python.jpg",
+    "name" : "Python"
+  },
+  {
+      "image" : "/git.png",
+      "name" : "Git"
+  },
+  {
+      "image" : "/github1.png",
+      "name" : "Github"
+  },
+  {
+      "image" : "/json.png",
+      "name" : "JSON"
+  },
+  {
+      "image" : "/xampp.png",
+      "name" : "XAMPP"
+  },
+  {
+      "image" : "/vscode.jpg",
+      "name" : "VS Code"
+  },
+  {
+      "image" : "/tailwind.png",
+      "name" : "Tailwind"
+  },
+  {
+      "image" : "/dsa.png",
+      "name" : "Data Structures and Algorithms"
+  }
+] 

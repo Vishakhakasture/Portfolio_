@@ -1,0 +1,163 @@
+@import "../../app.scss";
+
+.projects {
+  position: relative;
+
+  .progress {
+    position: sticky;
+    top:0;
+    left:0;
+    padding-top:10px;
+    text-align:center;
+    color: purple;
+    font-size:36px;
+
+    @include mobile {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-weight: bolder;
+    }
+
+    .progressBar {
+      height: 10px;
+      background-color: white;
+    }
+
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    .wrapper {
+      max-width: 1366px;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+
+      @include tablet {
+        flex-direction: column;
+      }
+
+      @include mobile {
+        flex-direction: column;
+      }
+
+      .image-container {
+        flex: 1;
+        height: 55%;
+
+        @include tablet {
+          width: 100%;
+          max-height: 300px;
+          margin-right: 30px;
+          margin-top: 120px;
+        }
+
+        @include mobile {
+          width: 100%;
+          max-height: 300px;
+          margin-right: 150px;
+          margin-top: 60px;
+        }
+
+        img {
+          width: 70%;
+          height: 100%;
+          object-fit: fill;
+          border-radius: 10px;
+          margin-left: 140px;
+          
+
+          @include tablet {
+            object-fit: contain;
+          }
+
+          @include mobile {
+            object-fit: contain;
+          }
+        }
+
+        img:hover {
+          border: 1px solid purple;
+        }
+      }
+      
+      .text-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        @include tablet {
+          transform: none !important;
+          padding: 20px;
+          align-items: center;
+          text-align: justify;
+        }
+
+        @include mobile {
+          transform: none !important;
+          padding: 20px;
+          align-items: center;
+          text-align: justify;
+        }
+
+        h2 {
+          font-size: 30px;
+          font-weight: bold;
+
+          @include tablet {
+            font-size: 35px;
+          }
+
+          @include mobile {
+            font-size: 30px;
+          }
+        }
+
+        p {
+          color: white;
+          font-size: 16px;
+          padding-right: 20px;
+          text-align: justify;
+        }
+
+        .github {
+          background-color: purple;
+          color: white;
+          font-weight: bolder;
+          border: none;
+          border-radius: 10px;
+          padding: 10px;
+          width: 200px;
+          cursor: pointer;
+          text-align: center;
+
+          @include mobile {
+            padding: 8px;
+            width: 70%;
+          }
+        }
+
+        .github:hover {
+          background-color: transparent;
+          border: 3px solid purple;
+          font-weight: bolder;
+          color: purple;
+        }
+      }
+    }
+
+    
+  }
+}
