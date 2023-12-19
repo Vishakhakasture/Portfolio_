@@ -26,7 +26,7 @@ const Skills = () => {
     <div className="skills">
       <div className="title-container">
         <div className="title">
-          <img src="/skills.jpg" alt="" />
+          <img src="./skills.jpg" alt="" />
           <h1>
             <motion.b whileHover={{ color: "purple" }}>Skills</motion.b>
           </h1>

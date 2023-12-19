@@ -9,7 +9,7 @@ const Experience = () => {
           <h1>
             <motion.b whileHover={{ color: "purple" }}>Experience</motion.b>
           </h1>
-          <img src="/experience.jpeg" alt="" />
+          <img src="./experience.jpeg" alt="" />
         </div>
       </div>
       <div className="organization">
