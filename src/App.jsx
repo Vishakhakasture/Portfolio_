@@ -40,7 +40,7 @@ const App = () => {
       <section id="Skills">
         <Skills />
       </section>
-      <section id="Contact">
+      <section id="contact">
         <Contact />
       </section>
     </div>
