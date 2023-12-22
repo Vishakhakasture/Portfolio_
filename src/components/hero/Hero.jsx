@@ -45,17 +45,14 @@ const Hero = () => {
           </motion.h4>
           <motion.h1 variants={textVariants}>software engineer</motion.h1>
           <motion.p variants={textVariants}>
-            Hi there! My name is Vishakha Kasture and I am currently a
-            final-year student at Dr.Babasaheb Ambedkar Technological
-            University, in computer science engineering. I am passionate about
-            learning new technologies and programming languages. Throughout my
-            academic career, I have been deeply interested in exploring the
-            fascinating world of computer science. I enjoy challenging myself
-            with complex algorithms and problem-solving and I am constantly
-            looking for ways to enhance my skills and knowledge. I am excited
-            about the opportunities that lie ahead and look forward to applying
-            my knowledge and skills to make a positive impact in the world of
-            computer science.
+            I am passionate about learning new technologies and programming
+            languages. Throughout my academic career, I have been deeply
+            interested in exploring the fascinating world of computer science. I
+            enjoy challenging myself with complex algorithms and problem-solving
+            and I am constantly looking for ways to enhance my skills and
+            knowledge. I am excited about the opportunities that lie ahead and
+            look forward to applying my knowledge and skills to make a positive
+            impact in the world of computer science.
           </motion.p>
           <motion.div className="buttons" variants={textVariants}>
             <motion.button
