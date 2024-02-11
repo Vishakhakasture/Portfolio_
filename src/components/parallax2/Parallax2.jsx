@@ -5,6 +5,7 @@ import "./parallax2.scss";
 // eslint-disable-next-line react/prop-types
 const Experience = ({ type }) => {
   const ref = useRef();
+  useRef;
 
   const { scrollYProgress } = useScroll({
     target: ref,

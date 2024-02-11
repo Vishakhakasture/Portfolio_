@@ -6,7 +6,7 @@ const Skill = function Each() {
     return (
       // eslint-disable-next-line react/jsx-key
       <div className="skill">
-        <img className="skill-img" src={item.image} alt="" />
+        <img className="skill-img" src={item.image} alt="i" />
         <h5>{item.name}</h5>
       </div>
     );

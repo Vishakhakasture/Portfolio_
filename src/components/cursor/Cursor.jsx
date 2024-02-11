@@ -4,7 +4,7 @@ import "./cursor.scss";
 
 const Cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
-
+  useState;
   useEffect(() => {
     const mouseMove = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });

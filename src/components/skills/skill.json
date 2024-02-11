@@ -1,11 +1,11 @@
 [
   {
       "image" : "./html.png",
-      "name" : "HTML"
+      "name" : "HTML / HTML5"
   },
   {
       "image" : "./css.png",
-      "name" : "CSS"
+      "name" : "CSS "
   },
   {
       "image" : "./js.png",

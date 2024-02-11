@@ -4,6 +4,8 @@ import Links from "./links/Links";
 import "./sidebar.scss";
 import ToggleButton from "./toggleButton/ToggleButton";
 
+useEffect;
+
 const variants = {
   open: {
     clipPath: "circle(1200px at 50px 50px)",

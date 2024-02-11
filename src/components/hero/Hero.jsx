@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import "./hero.scss";
+import { useEffect } from "react";
 
 const textVariants = {
   initial: {
@@ -29,6 +30,8 @@ const sliderVariants = {
     },
   },
 };
+
+useEffect;
 
 const Hero = () => {
   return (

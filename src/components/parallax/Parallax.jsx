@@ -4,6 +4,7 @@ import { useRef } from "react";
 
 const Parallax = ({ type }) => {
   const ref = useRef();
+  useRef;
 
   const { scrollYProgress } = useScroll({
     target: ref,

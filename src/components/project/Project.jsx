@@ -9,7 +9,7 @@ const items = [
     image: "./portfolio.png",
     description:
       "This project is simply a compilation of my academic and professional materials that exemplifies my beliefs, skills, qualifications, education, training, and experiences. Technologies used for developing this project are HTML, CSS, Javascript and React.",
-    github: "https://github.com/Vishakhakasture/Portfolio",
+    github: "https://github.com/Vishakhakasture/Portfolio_",
   },
   {
     id: 2,

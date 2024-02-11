@@ -21,7 +21,7 @@ const variants = {
 
 const Education = () => {
   const ref = useRef();
-
+  useRef;
   // const isInView = useInView(ref, { margin: "-100px" });
 
   return (
