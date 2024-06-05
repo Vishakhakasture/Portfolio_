@@ -24,7 +24,7 @@ const items = [
     title: "Sadguru Krupa",
     image: "./sadguru_krupa.jpg",
     description:
-      "Agrosell is an mobile application in which farmers can sell their products online and can gain profitable amount.",
+      "Sadguru krupa is an gift shopee.From these website the customer can order the gifts, ferns and petals.",
     github: "https://github.com/Vishakhakasture/sadguru",
   },
   {
@@ -32,7 +32,7 @@ const items = [
     title: "Shiksha Sankalp",
     image: "./shikshasankalp.jpg",
     description:
-      "Agrosell is an mobile application in which farmers can sell their products online and can gain profitable amount.",
+      "Shiksha sankalp is an web application which provides the video contents and courses freely availabe to students.And it also have the tweet application from which they can tweet and chat with each others.",
     github: "https://github.com/Vishakhakasture/shikshasankalp",
   },
 ];

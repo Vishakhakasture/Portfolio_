@@ -70,10 +70,12 @@
     justify-content: center;
 
     @include tablet {
+      transform: none !important;
       grid-template-columns: 20% 20% 20% 20%;
     }
 
     @include mobile {
+      transform: none !important;
       grid-template-columns: 25% 25% 25%;
     }
 
