@@ -16,7 +16,7 @@ const items = [
     title: "Agrosell application",
     image: "./agrosell_app.jpg",
     description:
-      "Agrosell is an mobile application in which farmers can sell their products online and can gain profitable amount.",
+      "Agrosell is an mobile application in which farmers can sell their products online and can gain profitable amount.These project is of GeeksForGeeks Hackathon on theme Agrotech and Buitld using Flutter, and for backend we used Firebase. ",
     github: "https://github.com/Vishakhakasture/Agrosell-application",
   },
   {
@@ -24,7 +24,7 @@ const items = [
     title: "Sadguru Krupa",
     image: "./sadguru_krupa.jpg",
     description:
-      "Sadguru krupa is an gift shopee.From these website the customer can order the gifts, ferns and petals.",
+      "Sadguru krupa is an gift shopee.From these website the customer can order the gifts, ferns and petals.These project is the final project of my internship where i designed the frontend of it by using html,css,react and tailwind.",
     github: "https://github.com/Vishakhakasture/sadguru",
   },
   {
@@ -32,7 +32,7 @@ const items = [
     title: "Shiksha Sankalp",
     image: "./shikshasankalp.jpg",
     description:
-      "Shiksha sankalp is an web application which provides the video contents and courses freely availabe to students.And it also have the tweet application from which they can tweet and chat with each others.",
+      "Shiksha sankalp is an web application which provides the video contents and courses freely availabe to students.And it also have the tweet application from which they can tweet and chat with each others.If any student wants to teach the courses and share their experience for that there is also an option of uploading the videos.",
     github: "https://github.com/Vishakhakasture/shikshasankalp",
   },
 ];

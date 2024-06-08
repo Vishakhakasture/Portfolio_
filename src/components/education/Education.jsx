@@ -63,21 +63,23 @@ const Education = () => {
         // whileInView={{ isInView }}
       >
         <motion.div className="box">
-          <div className="stream">
-            <h2>SSC</h2>
+        <div className="stream">
+            <h2>B-Tech</h2>
             <p>
-              <b>2018</b>
+              <b>2024</b>
             </p>
           </div>
           <p>
-            I have done my Secondary School Certificate from Shri.Rajarshi shahu
-            vidyalay, Mukundwadi, Aurangabad, Maharastra.
+            I am currently in final year of B-tech in stream computer science
+            and engineering at G.S. Mandals Marathwada institute of technology,
+            Aurangabad, Maharastra.
           </p>
-          <p>Board : Maharashtra State Board of Secondary Education</p>
+          <p>Board : Maharashtra state board of technical education</p>
           <div className="grade">
-            <p>Percentage : 79.20 </p>
+            <p>CGPA : 8.15</p>
             <p>Grade : A</p>
           </div>
+         
         </motion.div>
         <motion.div className="box">
           <div className="stream">
@@ -97,20 +99,19 @@ const Education = () => {
           </div>
         </motion.div>
         <motion.div className="box">
-          <div className="stream">
-            <h2>B-Tech</h2>
+        <div className="stream">
+            <h2>SSC</h2>
             <p>
-              <b>2024</b>
+              <b>2018</b>
             </p>
           </div>
           <p>
-            I am currently in final year of B-tech in stream computer science
-            and engineering at G.S. Mandals Marathwada institute of technology,
-            Aurangabad, Maharastra.
+            I have done my Secondary School Certificate from Shri.Rajarshi shahu
+            vidyalay, Mukundwadi, Aurangabad, Maharastra.
           </p>
-          <p>Board : Maharashtra state board of technical education</p>
+          <p>Board : Maharashtra State Board of Secondary Education</p>
           <div className="grade">
-            <p>CGPA : 8.15</p>
+            <p>Percentage : 79.20 </p>
             <p>Grade : A</p>
           </div>
         </motion.div>
